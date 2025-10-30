@@ -3,8 +3,7 @@
 # =================================================================================================
 
 import streamlit as st
-from PIL import Image
-import os
+
 
 # =================================================================================================
 # CONFIGURAÇÃO INICIAL DO APP
@@ -22,7 +21,7 @@ st.set_page_config(
 st.markdown(
     """
     <h1 style='color:#ffff00; text-align:center;'>
-        🍌 Projeto <span style='color:#FFD700;'>Projeto Qualidade da Banana</span>
+        🍌 <span style='color:#FFD700;'>Projeto Qualidade da Banana</span>
     </h1>
     """,
     unsafe_allow_html=True
